@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 #SPDX-FileCopyrightText:2022 Ken Inaba rightman20020920@yahoo.co,jp
 
-
 import sys
 
 ans=0 
