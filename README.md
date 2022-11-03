@@ -4,7 +4,7 @@
 SPDX-Copy right Text 2022 Ken Inaba
 
 #plusコマンド
-![test][https://github.com/dynepanch/robosys2022/blob/main/.github/workflows/test.yml]
+![test](https://github.com/dynepanch/robosys2022/blob/main/.github/workflows/test.yml)
 
 標準入力から読み込んだ数字を足す。
 
