@@ -20,11 +20,15 @@ linuxのコマンド等を使い数字の列を出力し、それを入すると
 動作例
 
 > seq 10 | ./plus
+
 > total=55
+
 > product=3628800
 
 > echo 三 | ./plus
+
 > total=3
+
 > product=3 
 
 
