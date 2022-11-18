@@ -1,0 +1,26 @@
+seq: 引数の浮動小数が無効です: `./plus'
+Try 'seq --help' for more information.
+./test.bash: 23 行: [: 0=: 単項演算子が予期されます
+Traceback (most recent call last):
+  File "/home/dynepanch/robosys2022/./plus", line 34, in <module>
+    ans+=int(line)
+ValueError: invalid literal for int() with base 10: 'あ'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dynepanch/robosys2022/./plus", line 36, in <module>
+    ans+=float(line)
+ValueError: could not convert string to float: 'あ'
+Traceback (most recent call last):
+  File "/home/dynepanch/robosys2022/./plus", line 34, in <module>
+    ans+=int(line)
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/dynepanch/robosys2022/./plus", line 36, in <module>
+    ans+=float(line)
+ValueError: could not convert string to float: ''
+./test.bash: 37 行: [: `]'がありません

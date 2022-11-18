@@ -9,6 +9,27 @@ ans2=1
 
 for line in sys.stdin:
     line = line.rstrip()
+    if line == '一':
+        line=1
+    elif line == '二':
+        line=2
+    elif line == '三':
+        line=3
+    elif line== '四':
+        line=4
+    elif line=='五':
+        line=5
+    elif line=='六':
+        line=6
+    elif line=='七':
+        line=7
+    elif line=='八':
+        line=8
+    elif line=='九':
+        line=9
+    elif line=='十':
+        line=10
+
     try:
         ans+=int(line)
     except:
@@ -19,10 +40,8 @@ for line in sys.stdin:
         except:
             ans2*=float(line)
 
-print("total")
-print(ans)
+print("plus=",ans)
+print("product=",ans2)
 
-print("total*")
-print(ans2)
 
 
