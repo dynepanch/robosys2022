@@ -37,4 +37,8 @@ out=$(echo 三 | ./plus)
 [ "${out}" = "plus=3 product=3" ] 
 [ "$res" = 0 ] && echo input三 OK
 
+out=$(seq 1 0.1 2 | ./plus)
+[ "${out}" = "puls=16.5 product=67.04425728" ]
+[ "$res" = 0 ] && echo input_float OK
+
 exit $res

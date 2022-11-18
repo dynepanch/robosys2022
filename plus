@@ -34,11 +34,10 @@ for line in sys.stdin:
         ans+=int(line)
     except:
         ans+=float(line)
-    if(int(line)>0):
-        try:
-            ans2*=int(line)
-        except:
-            ans2*=float(line)
+    try:
+        ans2*=int(line)
+    except:
+        ans2*=float(line)
 
 print("plus=",ans)
 print("product=",ans2)
