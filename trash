@@ -1,6 +1,6 @@
 seq: 引数の浮動小数が無効です: `./plus'
 Try 'seq --help' for more information.
-./test.bash: 22 行: [: 0=: 単項演算子が予期されます
+./test.bash: 27 行: [: 0=: 単項演算子が予期されます
 Traceback (most recent call last):
   File "/home/dynepanch/robosys2022/./plus", line 34, in <module>
     ans+=int(line)
