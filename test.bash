@@ -13,7 +13,6 @@ out=$(seq 5 | ./plus)
 [ "${out}"="plus=15 product=120" ] || ng ${LINENO}
 [ "$res" = 0 ] && echo No_5 OK
 
-
 out=$(seq 10 | ./plus)
 [ "${out}"="plus=55 product=3628800" ] || ng ${LINENO}
 [ "$res" = 0 ] && echo No_10 OK
@@ -27,6 +26,7 @@ out=$(echo あ | ./plus)
 [ "${out}" = "" ] ||	ng ${LINENO}
 
 [ "$res" = 0 ] && echo inputあ OK
+
 out=$(echo " " | ./plus )
 [ "$?" = 1 ]	    ||	ng ${LINENO}
 [ "${out}" = "" ] ||	ng ${LINENO}
@@ -34,7 +34,7 @@ out=$(echo " " | ./plus )
 [ "$res" = 0 ] && echo input space OK
 
 out=$(echo 三 | ./plus)
-[ "${out}" = "plus=3 product=3"] 
+[ "${out}" = "plus=3 product=3" ] 
 [ "$res" = 0 ] && echo input三 OK
 
 exit $res
