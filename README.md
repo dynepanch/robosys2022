@@ -38,11 +38,13 @@ linuxのコマンド等を使い数字の列を出力し、それを入すると
 ` product=3628800 `
 
 
+
 ` echo 三 | ./plus `
 
 ` plus=3 `
 
 ` product=3 `
+
 
 
 ` seq 1 0.1 2 | ./plus `
