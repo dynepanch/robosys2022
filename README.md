@@ -1,11 +1,15 @@
 # robosys2022
 
-このソフトウェアパッケージは3か条BSDライセンスの元、再配布及び使用が許可されています。
-SPDX-Copy right Text 2022 Ken Inaba
+このソフトウェアパッケージは3条項BSDライセンスの元、再配布及び使用が許可されています。
+
+© 2022 Ken Inaba
 
 連絡先:s21C1016HB@s.chibakoudai.jp
 
+ライセンス:https://github.com/dynepanch/robosys2022/blob/main/LICENSE
+
 千葉工業大学先進工学部未来ロボティクス学科のロボットシステム学で作成したレポジトリ。
+
 
 # plusコマンド
 ![test](https://github.com/dynepanch/robosys2022/actions/workflows/test.yml/badge.svg)
@@ -19,24 +23,29 @@ linuxのコマンド等を使い数字の列を出力し、それを入すると
 
 千葉工業大学の上田隆一先生のソースコードを授業のため流用
 
-動作例
+# 導入方法
+下記のコマンドを実行
 
-* seq 10 | ./plus
+'git clone git@github.com:dynepanch/robosys2022.git'
 
-	* plus=55
 
-	* product=3628800
+# 動作例
+ 
+* 'seq 10 | ./plus'
 
-* echo 三 | ./plus
+	* 'plus=55'
 
-	* plus=3
+	* 'product=3628800'
 
-	* product=3 
-* seq 1 0.1 2 | ./plus
+* 'echo 三 | ./plus'
 
-	* plus=16.5
-	* product=67.04425728
+	* 'plus=3'
 
+	* 'product='3 
+* 'seq 1 0.1 2 | ./plus'
+
+	* 'plus=16.5'
+	* 'product=67.04425728'
 
 ## 動作テスト済み ##
 * python
