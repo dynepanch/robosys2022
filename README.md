@@ -26,7 +26,7 @@ linuxのコマンド等を使い数字の列を出力し、それを入すると
 # 導入方法
 下記のコマンドを実行
 
-'git clone git@github.com:dynepanch/robosys2022.git'
+' git clone git@github.com:dynepanch/robosys2022.git '
 
 
 # 動作例
