@@ -31,21 +31,21 @@ linuxのコマンド等を使い数字の列を出力し、それを入すると
 
 # 動作例
  
-' seq 10 | ./plus '
+` seq 10 | ./plus `
 
-' plus=55 '
+` plus=55 `
 
-' product=3628800 '
+` product=3628800 `
 
-' echo 三 | ./plus '
+` echo 三 | ./plus `
 
-' plus=3 '
+` plus=3 `
 
-' product=3 ' 
-' seq 1 0.1 2 | ./plus '
+` product=3 `
+` seq 1 0.1 2 | ./plus `
 
-' plus=16.5 '
-' product=67.04425728 '
+` plus=16.5 `
+` product=67.04425728 `
 
 ## 動作テスト済み ##
 * python
