@@ -42,9 +42,9 @@ product=3
 
 
 
-seq 1 0.1 2 | ./plus `
+seq 1 0.1 2 | ./plus
 plus=16.5 
-product=67.04425728 `
+product=67.04425728
 ```
 
 ## 動作テスト済み ##
