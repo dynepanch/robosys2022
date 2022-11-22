@@ -36,13 +36,13 @@ product=3628800
 
 
 
- echo 三 | ./plus 
- plus=3 
- product=3
+echo 三 | ./plus 
+plus=3 
+product=3
 
 
 
- seq 1 0.1 2 | ./plus `
+seq 1 0.1 2 | ./plus `
 plus=16.5 
 product=67.04425728 `
 ```
